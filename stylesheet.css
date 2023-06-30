@@ -1,0 +1,91 @@
+body {
+    background-color: orange;
+    text-align: center;
+    background-size: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column; 
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgba(0,0,0,0);
+    outline: none;
+}
+
+.btn {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 5px 14px;
+    border: 2px solid #201f1d;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,.4);
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+input:focus {
+    border: 2px solid rgba(0,0,0,.4);
+    background-color: rgb(60,60,60);
+}
+
+
+form {
+    background-color: #fff;
+    padding: 80px;
+    color: #000;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+}
+
+form p {
+    margin-bottom: 5px;
+}
+
+form p:nth-child(1){
+    margin-top: 0;
+}
+
+.box {
+    margin-top: 20px;
+    float: none;
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+@media (min-width: 1024px) {
+    .box {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+body{
+    background-image: url(https://www.bing.com/th/id/OGC.1c19e12b81f6720f58733c39daff3835?pid=1.7&rurl=https%3a%2f%2fmedia1.giphy.com%2fmedia%2fRJsz8rbATX8saOJivl%2fsource.gif&ehk=Ml3UYW6OU6uhTnrosZm0wJtSleDsWWEGlwWT2maiEFM%3d
+    );
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
